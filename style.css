@@ -177,6 +177,43 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+.container {
+  position: relative;
+  width: 300px; /* Adjust to your image size */
+  margin: 50px auto;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  position: absolute;
+  top: 10px;
+  right: -180px; /* Position caption to the right of the image */
+  width: 160px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Arrow pointing to the photo */
+.caption::before {
+  content: "";
+  position: absolute;
+  top: 20px; /* Adjust vertically to match arrow tip */
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #f0f0f0;
+}
 
 /* Icons */
 .icon {
@@ -284,7 +321,7 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .article-container {
@@ -305,6 +342,9 @@ article {
 
 article .icon {
   cursor: default;
+}
+.experience {
+  
 }
 
 /* PROJECTS SECTION */
