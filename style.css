@@ -168,6 +168,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 
 #socials-container {
@@ -184,8 +185,11 @@ section {
 }
 
 .photo {
-  width: 100%;
-  border-radius: 8px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 10% 30%;
 }
 
 .caption {
@@ -294,6 +298,7 @@ section {
 }
 .about-pic {
   border-radius: 2rem;
+  height: 500px;
 }
 .arrow {
   position: absolute;
