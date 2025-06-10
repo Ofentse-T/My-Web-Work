@@ -179,8 +179,8 @@ section {
 }
 .container {
   position: relative;
-  width: 300px; /* Adjust to your image size */
-  margin: 50px auto;
+  width: 400px; /* Adjust to your image size */
+  margin: 50px 30px;
   text-align: center;
 }
 
@@ -191,29 +191,41 @@ section {
 
 .caption {
   position: absolute;
-  top: 10px;
-  right: -180px; /* Position caption to the right of the image */
+  top: -70px;
+  right: -130px; /* Position caption to the right of the image */
   width: 160px;
-  background: #f0f0f0;
   padding: 10px;
   border-radius: 8px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #333;
 }
-
-/* Arrow pointing to the photo */
-.caption::before {
-  content: "";
+.photo-arrow {
   position: absolute;
-  top: 20px; /* Adjust vertically to match arrow tip */
-  left: -20px;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 20px solid #f0f0f0;
+  top: 48px;
+  right: 80px;
+  width: 90px;
+  transform: rotate(180deg);
 }
+.other-caption {
+  position: absolute;
+  top: 70px;
+  left: -100px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+.other-photo-arrow {
+  position: absolute;
+  top: 48px;
+  right: 80px;
+  width: 90px;
+  transform: rotateX(180deg);
+}
+
 
 /* Icons */
 .icon {
