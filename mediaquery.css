@@ -100,4 +100,18 @@
   .text-container {
     text-align: justify;
   }
+  .photo {
+    height: 15rem;
+  }
+  .caption {
+    font-size: 1.5rem;
+    top: -50%;
+  }
+  .container {
+    display: flex;
+    width: 15rem;
+  }
+  .photo-arrow {
+    width: 3.5rem;
+  }
 }
