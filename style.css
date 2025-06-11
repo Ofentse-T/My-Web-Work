@@ -234,7 +234,7 @@ section {
 
 /* Icons */
 .icon {
-  cursor: pointer;
+  /* cursor: pointer; */
   height: 2rem;
 }
 
@@ -451,6 +451,11 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+.back-to-top {
+  position: relative;
+  left: 1300px;
+  margin-left: 20px;
 }
 
 /* Footer */
