@@ -47,10 +47,10 @@ a {
   text-decoration-color: white;
 }
 a:hover {
-  color: gray;
+  color: rgb(163, 163, 163);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(53, 53, 53);
 }
 .logo {
   font-size: 2rem;
@@ -267,7 +267,8 @@ section {
   color: white;
 }
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #e3a319;
+  border: #e3a319;
 }
 .btn-color-2 {
   background: none;
