@@ -1,3 +1,22 @@
+@media screen and (max-width: 1920px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  .back-to-top {
+    position: relative;
+    left: 1300px;
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -173,7 +192,7 @@
   .nav-links-container {
     margin-top: 1rem;
   }
-  .copyright {
+  /* .copyright {
     margin-top: -1rem;
-  }
+  } */
 }
