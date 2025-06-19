@@ -29,6 +29,11 @@
   #projects {
     height: fit-content;
   }
+  .back-to-top {
+    position: relative;
+    left: 105rem;
+    top: 9rem;
+  }
 }
 
 
@@ -64,6 +69,11 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .back-to-top {
+    position: relative;
+    left: 105rem;
+    top: 9rem;
   }
 }
 
@@ -195,6 +205,9 @@
   }
   .nav-links-container {
     margin-top: 1rem;
+  }
+  .back-to-top {
+    display: none;
   }
   /* .copyright {
     margin-top: -1rem;
