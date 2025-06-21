@@ -12,8 +12,6 @@
   }
   .back-to-top {
     position: relative;
-    left: 105rem;
-    top: 9rem;
   }
 }
 
@@ -31,8 +29,6 @@
   }
   .back-to-top {
     position: relative;
-    left: 105rem;
-    top: 9rem;
   }
 }
 
@@ -46,11 +42,14 @@
   }
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   #profile,
   .section-container {
     display: block;
+  }
+  #about {
+    height: 50vh;
   }
   .arrow {
     display: none;
@@ -68,12 +67,65 @@
     margin: 0 auto 2rem;
   }
   .about-containers {
-    margin-top: 0;
+    position: relative;
+    top: 12rem;
   }
   .back-to-top {
     position: relative;
-    left: 105rem;
+    left: 65rem;
+    top: 18rem;
+  }
+  .photo {
+    position: relative;
+    left: 19rem;
+  }
+    .caption {
+    right: 0rem;
+    top: -2rem;
+    transform: rotate(-22deg);
+  }
+  .photo-arrow {
+    transform: rotateX(180deg);
+    left: 2rem;
+  }
+  .other-caption{
+    left: 12rem;
+  }
+  .other-photo-arrow {
+    left: 19rem;
     top: 9rem;
+  }
+  .about-pic {
+    position: relative;
+    right: 1rem;
+  }
+  .text-container {
+    position: relative;
+    top: 12rem;
+  }
+  #experience .title {
+    position: relative;
+    top: 12rem;
+  }
+  #experience .section__text__p1 {
+    position: relative;
+    top: 12rem;
+  }
+  #projects .section__text__p1, #projects .title {
+    position: relative;
+    top: 13rem;
+  }
+  #contact .section__text__p1, #contact .title {
+    position: relative;
+    top: 10rem;
+  }
+  .contact-info-upper-container {
+    position: relative;
+    top: 12rem;
+  }
+  footer {
+    position: relative;
+    top: 15rem;
   }
 }
 
