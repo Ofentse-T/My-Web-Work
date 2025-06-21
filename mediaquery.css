@@ -12,6 +12,7 @@
   }
   .back-to-top {
     position: relative;
+    left: 105rem;
   }
 }
 
@@ -29,7 +30,13 @@
   }
   .back-to-top {
     position: relative;
+    left: 75rem;
   }
+  #experience {
+    position: relative;
+    top: 8rem;
+  }
+  
 }
 
 
